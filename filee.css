@@ -1,0 +1,88 @@
+body{
+    background-color: beige;
+    color: rgb(13, 13, 15);
+    justify-content: center;
+    display: flex;
+   
+    
+}
+.one img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: transform o.5s ease;
+    &:hover{
+        transform: translateY(-10px);
+    }
+}
+.one{
+     display: flex;
+}
+.two{
+    display: flex;
+}
+.three{
+    display: flex;
+}
+.four{
+    display: flex;
+}
+.five{
+    display: flex;
+}
+.ande img{
+    padding: 30px;
+    justify-content: center;
+}
+.two img{
+    height: 300px;
+    width: 300px;
+    padding-bottom: 30px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: transform o.5s ease;
+    &:hover{
+        transform: translateY(-10px);
+    }
+}
+.three img{
+    height: 300px;
+    width: 300px;
+    padding-bottom: 30px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: transform o.5s ease;
+    &:hover{
+        transform: translateY(-10px);
+    }
+
+}
+.four img{
+    height: 300px;
+    width: 300px;
+    padding-bottom: 30px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: transform o.5s ease;
+    &:hover{
+        transform: translateY(-10px);
+    }
+
+}
+.five img{
+    height: 300px;
+    width: 300px;
+    padding-bottom: 30px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: transform o.5s ease;
+    &:hover{
+        transform: translateY(-10px);
+    }
+
+}
+.ande h2{
+    display: flex;
+    justify-content: center;
+}

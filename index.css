@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 10px 10px 40px 10px lightblue;
+
+}
+span{
+    color: rgb(21, 21, 233);
+}
+h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+nav ul li{
+    display: inline;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    & :hover{
+        color: aqua;
+    }
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+
+}
+.right img{
+    height: 250px;
+    width: 230px;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: lightblue;
+    box-shadow: 10px 10px 40px 10px lightblue;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    &:hover{
+        transform: translateY(-10px);
+    }
+}
+.left{
+    padding-left: 30px;
+}
+.left h1{
+    padding: 10px;
+    text-transform: uppercase;
+    font-style: oblique;
+    font-size: 30px;
+}
+.left p{
+    font-style: normal;
+    font-size: 20px;
+}
+.link img{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    border-style: ridge;
+    border-color: lightblue;
+    cursor: pointer;
+    transition: transform o.5s ease;
+    &:hover{
+        transform: translateY(-10px);
+    }
+
+}
+.mywork h1{
+    background-color: lightblue;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 30px;
+    box-shadow: 10px 10px 40px 10px lightblue;
+}
+.weeknd img{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    border-style: ridge;
+    border-color: lightblue;
+    cursor: pointer;
+    transition: transform o.5s ease;
+    &:hover{
+        transform: translateY(-10px);
+    }
+}
+.seraw{
+    display: flex;
+}
+.seraw h2{
+    text-transform: uppercase;
+    font-style: oblique;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-bottom: 60px;
+}
+.seraw img{
+    margin-top: 60px;
+    margin-left: 40px;
+}
